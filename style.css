@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+    font-size: 50px;
+}
+
+button{
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #0e0f0f;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+
+}
+
+button:hover {background-color: #343ea0}
+
+button:active {
+  background-color: #b4ccb5;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+#Len{
+    height: 30px;
+    width: 100px;
+    padding: 15px 25px;
+    font-size: 24px;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
